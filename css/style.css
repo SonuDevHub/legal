@@ -526,7 +526,7 @@ header .header-col.mid .social-icons {
     display: inline-block;
     margin-top: 50px;
     margin-bottom: 5px;
-    border-bottom: solid 3px #ffffff;
+    /* border-bottom: solid 3px #ffffff; */
 }
 
 #subheader.dark {
@@ -2812,6 +2812,7 @@ a.btn-custom.btn-white {
 
 a.btn-custom.btn-black {
     background: #111111;
+    color: #fff;
 }
 
 header a.btn-custom {
@@ -3185,7 +3186,7 @@ hr {
 .form-border select {
     padding: 8px;
     margin-bottom: 20px;
-    border: none;
+    border: 1px solid #dadada;
     background: rgba(255, 255, 255, .1);
     border-radius: 3px;
     -moz-border-radius: 3px;
@@ -5473,7 +5474,7 @@ footer .ul-style-2.s2 li:after{
 }
 
 .accordion-section-title.active:before {
-    content: "\f106";x
+    content: "\f106";
 }
 
 .accordion-section-title.active {
@@ -8771,9 +8772,6 @@ a.img-icon-zoom {
     width: 100%;
 }
 
-margin:5px;
-}
-
 /* clear fix */
 .grid:after {
     content: '';
@@ -8880,7 +8878,7 @@ margin:5px;
 }
 
 .widget-post li a {
-    padding-left: 60px;
+    /* padding-left: 60px; */
     display: block;
     text-decoration: none;
     color: #111111;
@@ -8983,8 +8981,7 @@ margin:5px;
     border-color: #555;
 }
 
-.widget_tags li a:hover border-color: #eceff3;
-}
+
 
 footer .widget {
     border: none;
@@ -9484,7 +9481,7 @@ footer .tiny-border span {
 
 .d-vertical-center{
     top: 50%;
-    transform: translateY(--50%);
+    transform: translateY(50%);
 }
 
 
@@ -10617,7 +10614,7 @@ section.no-padding {
     right: 0;
 }
 
-.owl-arrow .prev:before,
+/* .owl-arrow .prev:before,
 .owl-arrow .next:before {
     font-family: "FontAwesome";
     content: '\f177';
@@ -10625,7 +10622,7 @@ section.no-padding {
     padding: 20px;
     font-size: 32px;
     display: block;
-}
+} */
 
 .owl-arrow .next:before {
     content: '\f178';
@@ -12766,12 +12763,12 @@ a.btn-slider:hover {
     text-align: center;
 }
 
-.testi-slider .flex-control-nav li {
+/* .testi-slider .flex-control-nav li {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
     *display: inline;
-}
+} */
 
 .testi-slider .flex-control-paging li a {
     background: none;
@@ -13163,8 +13160,7 @@ img {
         position: fixed;
     }
 
-    #subheader,
-        {
+    #subheader{
         padding: 0 0 0 0;
     }
 
